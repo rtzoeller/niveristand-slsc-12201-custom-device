@@ -8,7 +8,7 @@ LabVIEW 2017
 
 ### Built Availability ###
 
-Builds of this IP are available on the [NI VeriStand Add-ons Community](https://decibel.ni.com/content/docs/DOC-15510).
+Builds of this IP are available on the [NI VeriStand Add-ons Community](https://forums.ni.com/t5/NI-VeriStand-Add-Ons-Documents/NI-VeriStand-Add-on-SLSC-12201-DIO-Plugin-Custom-Device/ta-p/3690531).
 
 ### Quality, Limitations ###
 
