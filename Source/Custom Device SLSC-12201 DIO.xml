@@ -10,7 +10,7 @@
 		<Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\HideFromMenu.vi</Path>
 		<Behavior>Static</Behavior>
 	</Dependency>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>c474772f-1eb5-4c79-98d9-8846819e1c09</MainPageGUID>
@@ -39,14 +39,6 @@
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-			<Source>
-				<SupportedTarget>VxWorks</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\VxWorks\SLSC-12201 DIO Engine VxWorks.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>	
 			<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
 				<Source>
@@ -110,6 +102,87 @@
 				  </Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>HelpButton</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID></ReferencedGUID>
+					<ButtonText>
+						<eng>Page Help</eng>
+						<loc>Page Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Page Help</eng>
+						<loc>Page Help</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Shows help for this page</eng>
+						<loc>Shows help for this page</loc>
+					</TipStrip>
+					<Documentation>
+						<eng></eng>
+						<loc></loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Diagram</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Multiplexer.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID></ReferencedGUID>
+					<ButtonText>
+						<eng>SLSC Diagram</eng>
+						<loc>SLSC Diagram</loc>
+					</ButtonText>
+					<Caption>
+						<eng>SLSC Diagram</eng>
+						<loc>SLSC Diagram</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Shows the diagram for this card</eng>
+						<loc>Shows the diagram for this card</loc>
+					</TipStrip>
+					<Documentation>
+						<eng></eng>
+						<loc></loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Pinout</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID></ReferencedGUID>
+					<ButtonText>
+						<eng>SLSC Pinout</eng>
+						<loc>SLSC Pinout</loc>
+					</ButtonText>
+					<Caption>
+						<eng>SLSC Pinout</eng>
+						<loc>SLSC Pinout</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Shows the pinout for this module</eng>
+						<loc>Shows the pinout for this module</loc>
+					</TipStrip>
+					<Documentation>
+						<eng></eng>
+						<loc></loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+            <ActionVIOnLoad>
+                <Type>To Common Doc Dir</Type>
+                <Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\ActionVIOnLoad.vi</Path>
+            </ActionVIOnLoad>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -158,6 +231,10 @@
 				  </Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+            <ActionVIOnLoad>
+                <Type>To Common Doc Dir</Type>
+                <Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\ActionVIOnLoad.vi</Path>
+            </ActionVIOnLoad>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -168,6 +245,7 @@
 				<eng>Channel Interface</eng>
 				<loc>Channel Interface</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>6ad1a20b-2db8-4c6d-aa6c-0825df07c280</GUID>
@@ -185,6 +263,7 @@
 				<eng>Bank</eng>
 				<loc>Bank</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>09713285-c596-431e-bd16-d6aa13349e66</GUID>
@@ -202,6 +281,7 @@
 				<eng>Bank 1</eng>
 				<loc>Bank 1</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>c55bf871-3108-4625-9a8c-cf5a91b1839b</GUID>
@@ -219,6 +299,7 @@
 				<eng>Port</eng>
 				<loc>Port</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>b5f9d9e4-a9da-4a9f-991b-22d0b235c7c1</GUID>
@@ -236,6 +317,7 @@
 				<eng>Line</eng>
 				<loc>Line</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>661c9457-bca1-4357-942d-be39bffabc16</GUID>
@@ -253,6 +335,7 @@
 				<eng>Status</eng>
 				<loc>Status</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>1b9978d0-bb72-4eda-a9bc-ebfaab5f75ec</GUID>
@@ -270,6 +353,7 @@
 				<eng>Command Channels</eng>
 				<loc>Command Channels</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>5ef2e5ef-6c3e-41ce-8bf3-8b9cdcedadff</GUID>
