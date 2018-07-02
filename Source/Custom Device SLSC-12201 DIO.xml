@@ -10,7 +10,7 @@
 		<Path>Custom Devices\SLSC Plug-ins\SLSC-12201 DIO\SLSC-12201 DIO Configuration.llb\HideFromMenu.vi</Path>
 		<Behavior>Static</Behavior>
 	</Dependency>
-	<Version>1.0.1</Version>
+	<Version>1.0.3</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>c474772f-1eb5-4c79-98d9-8846819e1c09</MainPageGUID>
