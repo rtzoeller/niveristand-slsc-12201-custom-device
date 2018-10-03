@@ -9,7 +9,7 @@ LabVIEW 2017
 ## Dependencies
 
 - NI-SLSC Driver 17.0+
-- Inline-Async API from (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
+- [NI VeriStand Addon Inline Async API](https://github.com/ni/niveristand-custom-device-inline-async-api)
 
 ## License
 
