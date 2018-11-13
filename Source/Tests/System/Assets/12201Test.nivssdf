@@ -10,7 +10,7 @@
 				<String>12201Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.9</String>
+				<String>1.0.0.10</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -517,7 +517,7 @@
 												</Properties>
 												<Errors />
 												<DefaultValue>
-													<Elem>1</Elem>
+													<Elem>0</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Direction" TypeGUID="6ad1a20b-2db8-4c6d-aa6c-0825df07c280" RowDim="1" ColDim="1" Units="" BitFields="3">
