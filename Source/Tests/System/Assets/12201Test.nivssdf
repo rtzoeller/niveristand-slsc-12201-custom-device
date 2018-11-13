@@ -10,7 +10,7 @@
 				<String>12201Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.7</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -3252,6 +3252,15 @@
 				</Property>
 			</Properties>
 			<Errors />
+			<Alias Name="Ch0LineEnable" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Description />
+				<Properties>
+					<Property Name="Referenced Channel">
+						<DependentNode Path="Targets/Controller/Custom Devices/SLSC/NI SLSC-12001/Slot 1 (SLSC-12201 DIO)/Bank 0/Port 0/Line 0/Enable" />
+					</Property>
+				</Properties>
+				<Errors />
+			</Alias>
 		</Section>
 		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
 			<Description />
