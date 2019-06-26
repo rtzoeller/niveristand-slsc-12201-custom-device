@@ -5,4 +5,4 @@
 List<String> lvVersions = ['2016', '2017', '2018', '2019']
 
 ni.vsbuild.PipelineExecutor.execute(this, 'veristand', lvVersions)
-diffPipeline(lvVersions[0])
+diffPipeline('2019')
